@@ -19,11 +19,18 @@ public class GetRoomList : MonoBehaviour {
 
 	private void OnReceivedRoomListUpdate()
 	{
+		for (int i = 0; i < ListRoomCreated.Count; i++) 
+		{
+			Destroy (ListRoomCreated[i]);
+			ListRoomCreated.Clear ();
+		}
+
 		RoomInfo[] rooms = PhotonNetwork.GetRoomList ();
 		foreach (RoomInfo room in rooms) 
 		{
 			OnReceivedRoom (room);
 		}
+
 
 	}
 

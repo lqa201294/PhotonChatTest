@@ -16,7 +16,7 @@ public class PlayerInRoom : MonoBehaviour {
 	void Awake()
 	{
 		list = new List<GameObject>();
-
+		list.Clear ();
 	}
 
 	void Start()
@@ -36,15 +36,12 @@ public class PlayerInRoom : MonoBehaviour {
 	{
 		NotifyJoin.GetComponent<Text>().text= PhotonNetwork.playerName +" "+ "has joined the Room" ;
 
-		list.Clear ();
-
-
 		PhotonPlayer[] photonplayer = PhotonNetwork.playerList;
-		for(int i =0; i < photonplayer.Length; i++)
+		foreach(PhotonPlayer player in photonplayer)
 		{
-			PlayerJoinedRoom (photonplayer[i]);
+			PlayerJoinedRoom (player);
 		}
-
+			
 		Channel.text ="Chanel:" + PhotonNetwork.room.Name;
 		RoomMaster.text = "Master: " + PhotonNetwork.masterClient.NickName;
 
@@ -74,15 +71,18 @@ public class PlayerInRoom : MonoBehaviour {
 		{
 			return;
 		}
+
+		int index = list.FindIndex (x => x.GetComponent<Text> ().text == plinroom.NickName);
+		if (index == -1) 
+		{
+			GameObject showplayer = Instantiate (player);
+			showplayer.transform.SetParent (transform, false);
+			showplayer.GetComponent<Text> ().text = plinroom.NickName;
+
+			list.Add (showplayer);
+
+		}
 			
-		GameObject showplayer = Instantiate (player);
-		showplayer.transform.SetParent (transform, false);
-		showplayer.GetComponent<Text> ().text = plinroom.NickName;
-
-		list.Add (showplayer);
-
-
-	
 	}
 
 	private void PhotonLeftRoom(PhotonPlayer playerleave)
@@ -94,17 +94,8 @@ public class PlayerInRoom : MonoBehaviour {
 			list.RemoveAt (index);
 		}
 
-//		if (playerleave.IsMasterClient) 
-//		{
-//			PhotonPlayer[] photonplayer = PhotonNetwork.playerList;
-//
-//			if(photonplayer.Length > 1)
-//			{
-//				PhotonNetwork.SetMasterClient (photonplayer [0]);
-//			}
-//		}
 
-		NotifyLeave.GetComponent<Text>().text=  playerleave.NickName +" "+ "has leave Room";
+		NotifyLeave.GetComponent<Text>().text =  playerleave.NickName +" "+ "has leave Room";
 		StartCoroutine (HideNotify(2f, NotifyLeave));
 	}
 		

@@ -15,9 +15,6 @@ public class ChatPhotonTest : MonoBehaviour
 	{
 		content = new string[1];
 
-		PhotonNetwork.RaiseEvent (1,null, true, new RaiseEventOptions()
-			{Receivers = ReceiverGroup.All, CachingOption= EventCaching.AddToRoomCache});
-
 		PhotonNetwork.OnEventCall += this.OnEvent;
 	}
 
@@ -51,12 +48,18 @@ public class ChatPhotonTest : MonoBehaviour
 		//content.Add (textchat);
 		content[0] = textchat;
 
+		PhotonPlayer[] playerinRoom = PhotonNetwork.playerList;
+		int[] idPlayerJoined = new int[playerinRoom.Length];
+
+		for(int i= 0; i < playerinRoom.Length; i++)
+		{
+			idPlayerJoined [i] = playerinRoom [i].ID;
+		}
+
 		PhotonNetwork.RaiseEvent (0,content, true, new RaiseEventOptions()
-			{Receivers = ReceiverGroup.All, CachingOption= EventCaching.AddToRoomCache});
+			{Receivers = ReceiverGroup.All, CachingOption= EventCaching.AddToRoomCache, TargetActors = idPlayerJoined});
 		
-
 	}
-
 
 	private void OnEvent(byte eventcode,object content, int senderid)
 	{
@@ -74,7 +77,6 @@ public class ChatPhotonTest : MonoBehaviour
 		if (eventcode == 1) 
 		{
 			Chatbox.text = string.Empty;
-
 		}
 	}
 
