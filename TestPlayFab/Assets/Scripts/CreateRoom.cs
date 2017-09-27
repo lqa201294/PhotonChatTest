@@ -12,6 +12,8 @@ public class CreateRoom : MonoBehaviour {
 	public GameObject ChatPanel;
 	public GameObject MakeRoomPanel;
 
+	public GameObject GameRoom;
+
 	public void PublishRoom()
 	{
 		Notify.SetActive (true);
@@ -43,7 +45,7 @@ public class CreateRoom : MonoBehaviour {
 		Notify.GetComponent<Text> ().text = PhotonNetwork.playerName + " created a Room! ^^";
 			
 		StartCoroutine (hideNotify(2f , Notify));
-		ChatPanel.SetActive (true);
+		GameRoom.SetActive (true);
 		MakeRoomPanel.SetActive (false);
 	}
 

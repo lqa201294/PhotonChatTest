@@ -8,14 +8,14 @@ public class ChatPhotonTest : MonoBehaviour
 {
 	public InputField inputTextchat;
 	public Text Chatbox;
-	public Text NotifyStatus;
 	string[] content;
 
 	void Awake()
 	{
 		content = new string[1];
-
+		Chatbox.text = string.Empty;
 		PhotonNetwork.OnEventCall += this.OnEvent;
+
 	}
 
 	public void OnEnterSend()
@@ -65,6 +65,7 @@ public class ChatPhotonTest : MonoBehaviour
 	{
 		if (eventcode == 0) 
 		{
+			print ("chat");
 			PhotonPlayer sender = PhotonPlayer.Find (senderid);
 			string[] chatcontent = (string[])content;
 

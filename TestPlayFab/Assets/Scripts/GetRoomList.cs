@@ -9,6 +9,7 @@ public class GetRoomList : MonoBehaviour {
 	public GameObject Notify;
 	public GameObject ChatRoom;
 	public GameObject CreateRoom;
+	public GameObject GameRoom;
 
 	List<GameObject> ListRoomCreated;
 
@@ -30,7 +31,6 @@ public class GetRoomList : MonoBehaviour {
 		{
 			OnReceivedRoom (room);
 		}
-
 
 	}
 
@@ -57,11 +57,10 @@ public class GetRoomList : MonoBehaviour {
 					
 	}
 
-
 	private void JoinToRoom(string roomName)
 	{
 		PhotonNetwork.JoinRoom (roomName);
-		ChatRoom.SetActive (true);
+		GameRoom.SetActive (true);
 		CreateRoom.SetActive (false);
 	}
 

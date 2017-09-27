@@ -58,7 +58,6 @@ public class PlayFabAuthenticator : MonoBehaviour {
 	void AuthenticatewithPhoton(GetPhotonAuthenticationTokenResult result)
 	{
 		Notify.text = "Photon token acquired Authentication complete.";
-		NetWorkPhoton.token = result.PhotonCustomAuthenticationToken;
 
 		var customAuth = new AuthenticationValues 
 		{ 

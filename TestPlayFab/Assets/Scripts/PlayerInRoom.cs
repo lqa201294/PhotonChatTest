@@ -93,8 +93,7 @@ public class PlayerInRoom : MonoBehaviour {
 			Destroy (list[index].gameObject);
 			list.RemoveAt (index);
 		}
-
-
+			
 		NotifyLeave.GetComponent<Text>().text =  playerleave.NickName +" "+ "has leave Room";
 		StartCoroutine (HideNotify(2f, NotifyLeave));
 	}

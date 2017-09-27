@@ -1,0 +1,1392 @@
+fileFormatVersion: 2
+guid: ea594579ab3279f4e865639611c81629
+timeCreated: 1506415633
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MenuButtons_0
+    21300002: MenuButtons_1
+    21300004: MenuButtons_2
+    21300006: MenuButtons_3
+    21300008: MenuButtons_4
+    21300010: MenuButtons_5
+    21300012: MenuButtons_6
+    21300014: MenuButtons_7
+    21300016: MenuButtons_8
+    21300018: MenuButtons_9
+    21300020: MenuButtons_10
+    21300022: MenuButtons_11
+    21300024: MenuButtons_12
+    21300026: MenuButtons_13
+    21300028: MenuButtons_14
+    21300030: MenuButtons_15
+    21300032: MenuButtons_16
+    21300034: MenuButtons_17
+    21300036: MenuButtons_18
+    21300038: MenuButtons_19
+    21300040: MenuButtons_20
+    21300042: MenuButtons_21
+    21300044: MenuButtons_22
+    21300046: MenuButtons_23
+    21300048: MenuButtons_24
+    21300050: MenuButtons_25
+    21300052: MenuButtons_26
+    21300054: MenuButtons_27
+    21300056: MenuButtons_28
+    21300058: MenuButtons_29
+    21300060: MenuButtons_30
+    21300062: MenuButtons_31
+    21300064: MenuButtons_32
+    21300066: MenuButtons_33
+    21300068: MenuButtons_34
+    21300070: MenuButtons_35
+    21300072: MenuButtons_36
+    21300074: MenuButtons_37
+    21300076: MenuButtons_38
+    21300078: MenuButtons_39
+    21300080: MenuButtons_40
+    21300082: MenuButtons_41
+    21300084: MenuButtons_42
+    21300086: MenuButtons_43
+    21300088: MenuButtons_44
+    21300090: MenuButtons_45
+    21300092: MenuButtons_46
+    21300094: MenuButtons_47
+    21300096: MenuButtons_48
+    21300098: MenuButtons_49
+    21300100: MenuButtons_50
+    21300102: MenuButtons_51
+    21300104: MenuButtons_52
+    21300106: MenuButtons_53
+    21300108: MenuButtons_54
+    21300110: MenuButtons_55
+    21300112: MenuButtons_56
+    21300114: MenuButtons_57
+    21300116: MenuButtons_58
+    21300118: MenuButtons_59
+    21300120: MenuButtons_60
+    21300122: MenuButtons_61
+    21300124: MenuButtons_62
+    21300126: MenuButtons_63
+    21300128: MenuButtons_64
+    21300130: MenuButtons_65
+    21300132: MenuButtons_66
+    21300134: MenuButtons_67
+    21300136: MenuButtons_68
+    21300138: MenuButtons_69
+    21300140: MenuButtons_70
+    21300142: MenuButtons_71
+    21300144: MenuButtons_72
+    21300146: MenuButtons_73
+    21300148: MenuButtons_74
+    21300150: MenuButtons_75
+    21300152: MenuButtons_76
+    21300154: MenuButtons_77
+    21300156: MenuButtons_78
+    21300158: MenuButtons_79
+    21300160: MenuButtons_80
+    21300162: MenuButtons_81
+    21300164: MenuButtons_82
+    21300166: MenuButtons_83
+    21300168: MenuButtons_84
+    21300170: MenuButtons_85
+    21300172: MenuButtons_86
+    21300174: MenuButtons_87
+    21300176: MenuButtons_88
+    21300178: MenuButtons_89
+    21300180: MenuButtons_90
+    21300182: MenuButtons_91
+    21300184: MenuButtons_92
+    21300186: MenuButtons_93
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MenuButtons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 882
+        width: 512
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_1
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 992
+        width: 280
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_2
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1066
+        width: 201
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_3
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 904
+        width: 162
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_4
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1038
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_5
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 780
+        width: 201
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_6
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 981
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_7
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 975
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_8
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 975
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_9
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 975
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_10
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 956
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_11
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 927
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_12
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 966
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_13
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 927
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_14
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 904
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_15
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 871
+        width: 72
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_16
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 891
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_17
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 762
+        width: 139
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_18
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 840
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 554
+        width: 511
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_20
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 879
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_21
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 868
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_22
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 854
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_23
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 813
+        width: 72
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_24
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 843
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_25
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 831
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_26
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 776
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_27
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 824
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_28
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 810
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_29
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 795
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_30
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 758
+        width: 72
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_31
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 783
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_32
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 578
+        width: 201
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_33
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 770
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_34
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 758
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_35
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 574
+        width: 97
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_36
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 680
+        width: 91
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_37
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 569
+        width: 98
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_38
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 599
+        width: 91
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 426
+        width: 329
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_40
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 391
+        width: 174
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_41
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 430
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_42
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 421
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_43
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 496
+        width: 97
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_44
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 517
+        width: 91
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_45
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 444
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_46
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 435
+        width: 91
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_47
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 224
+        width: 201
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_48
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 220
+        width: 106
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_49
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 377
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_50
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 380
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_51
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 243
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_52
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 273
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_53
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 273
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_54
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 342
+        width: 82
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_55
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 355
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_56
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 359
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_57
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 321
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_58
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 327
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_59
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 259
+        width: 82
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_60
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 282
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_61
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 285
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_62
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 250
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_63
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 251
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_64
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 166
+        width: 142
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_65
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 182
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_66
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 171
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_67
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 168
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_68
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 229
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_69
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 224
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_70
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 230
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_71
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 162
+        width: 91
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_72
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 176
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 22
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_74
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 14
+        width: 106
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_75
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 143
+        width: 91
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_76
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 164
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_77
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 99
+        width: 82
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_78
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 107
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_79
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 87
+        width: 91
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_80
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 61
+        width: 91
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_81
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 61
+        width: 91
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_82
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 68
+        width: 78
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_83
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 85
+        width: 91
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_84
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 85
+        width: 91
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_85
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 5
+        width: 78
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_86
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 0
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_87
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 0
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_88
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 21
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_89
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 3
+        width: 91
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_90
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 3
+        width: 91
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_92
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 4
+        width: 58
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MenuButtons_93
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 6
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
