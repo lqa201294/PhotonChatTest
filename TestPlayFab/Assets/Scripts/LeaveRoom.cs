@@ -9,14 +9,33 @@ public class LeaveRoom : MonoBehaviour {
 
 	public void LeftRoom()
 	{
+		
 		if (PhotonNetwork.LeaveRoom ()) 
 		{
 			print ("Left Room Send Request");
+
+			if (PhotonNetwork.isMasterClient) 
+			{
+				PlayerPrefs.DeleteAll ();
+
+				int index = PlayerJoinedGame.playername.FindIndex (x =>x == PhotonNetwork.masterClient.NickName);
+				if (index == -1) {
+					return;
+				}
+				else
+				{
+					PlayerJoinedGame.playername.RemoveAt (index);
+					print ("remove master in list");
+				}
+
+				print ("master left room");
+			}
 		}
 		else
 		{
 			print ("Left room Fail!");
 		}
+
 		ChatRoom.SetActive (false);
 		Lobby.SetActive (true);
 	}

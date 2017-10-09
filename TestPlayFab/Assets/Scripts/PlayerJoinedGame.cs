@@ -15,13 +15,10 @@ public class PlayerJoinedGame : MonoBehaviour {
 
 	public Button ready;
 	private bool clientready;
-	bool randomAvatar;
-	int index0;
-	int index1;
 
 	public GameObject waiting;
 	public GameObject StartButton;
-	List<string> playername = new List<string> ();
+	public static List<string> playername = new List<string> ();
 
 	// Use this for initialization
 	void Start () 
@@ -49,6 +46,11 @@ public class PlayerJoinedGame : MonoBehaviour {
 		gameObject.SetActive (false);
 		StartButton.SetActive (false);
 
+	}
+
+	private void OnMasterClientSwitched(PhotonPlayer newMasterClient)
+	{
+		print ("new change masterclient" +" " + newMasterClient.NickName);
 	}
 
 	private void OnPhotonPlayerConnected(PhotonPlayer player)
@@ -79,50 +81,33 @@ public class PlayerJoinedGame : MonoBehaviour {
 	private void PlayerJoinedRoom(PhotonPlayer playerJoined)
 	{
 		waiting.SetActive (true);
-		randomAvatar = true;
 		int index = playername.FindIndex (x =>x == playerJoined.NickName);
+
 		if (index == -1) 
 		{
-			if (randomAvatar) 
-			{
-				randomAvatar = false;
-				index0 = UnityEngine.Random.Range (0, avatar.Length-1);
-
-			}
-				
-			if (playerJoined.NickName == PhotonNetwork.masterClient.NickName)
-			{
-				PhotonNetwork.RaiseEvent (3, new object []{ index0 }, true, new RaiseEventOptions () {
-					Receivers = ReceiverGroup.All,
-					CachingOption = EventCaching.AddToRoomCache
-				});
-				print ("init image player1" +" "+ index0);
-
-			}
-			else
-			{
-				print ("init image player2" +" "+  index1);
-				PhotonNetwork.RaiseEvent (4, new object []{index1}, true, new RaiseEventOptions () {
-					Receivers = ReceiverGroup.All,
-					CachingOption = EventCaching.AddToRoomCache
-				});
-			
-
-			}
 			playername.Add (playerJoined.NickName);
-			player [playername.Count - 1].SetActive (true);
+			index = playername.Count - 1;
+
+			PhotonNetwork.RaiseEvent (3, new object[]{playername[index]}, true, new RaiseEventOptions () {
+				Receivers = ReceiverGroup.All,
+				CachingOption = EventCaching.AddToRoomCache
+			});
+			print ("number playerjoined :" + index);
+			print ("number playerjoined :" +" "+  playername.Count);
+			player [index].SetActive (true);
 		}
 	}
 		
+
 	private void PlayerLeftRoom(PhotonPlayer playerleave)
 	{
 		int index = playername.FindIndex (x => x == playerleave.NickName);
 		if(index != -1)
 		{
-			player [index].SetActive (false);
+			player [1].SetActive (false);
 			playername.RemoveAt (index);
 		}
-
+			
 		Notify.GetComponent<Text> ().text = playerleave.NickName + " " + "has left the Room";
 		StartCoroutine (HideNotify(2f, Notify));
 	}
@@ -165,26 +150,70 @@ public class PlayerJoinedGame : MonoBehaviour {
 		if (eventcode == 3) 
 		{
 			object[] data = (object[])content;
+	
+			if (playername.Count == 1) 
+			{
 
-			index1 = (int)data [0] + 1;
-			player[0].GetComponent<Image>().sprite = avatar [(int)data[0]];
+				int avaIndex  = PlayerPrefs.GetInt ("random",2);
 
-			PhotonPlayer sender = PhotonPlayer.Find (senderid);
-			playername1.text = sender.NickName;
+				if (avaIndex == 2) 
+				{
+					int randomAva = UnityEngine.Random.Range (0, avatar.Length - 1);
 
+					player [0].GetComponent<Image> ().sprite = avatar [randomAva];
+					playername1.text = (string)data[0];
+
+					PlayerPrefs.SetInt ("random", randomAva);
+					PlayerPrefs.Save ();
+					print ("random a avatar");
+				}
+				else 
+				{
+					
+					player [0].GetComponent<Image> ().sprite = avatar [avaIndex];
+					playername1.text = (string)data[0];
+				
+					PlayerPrefs.SetInt ("random", avaIndex);
+					PlayerPrefs.Save ();
+
+					print ("evecode3" +" "+ (string)data[0]);
+
+				}
+					
+				print (avaIndex);
+			}
+			else
+			{
+				PhotonNetwork.RaiseEvent (4, new object[]{ PlayerPrefs.GetInt("random"), playername[1]}, true, new RaiseEventOptions () {
+					Receivers = ReceiverGroup.All,
+					CachingOption = EventCaching.AddToRoomCache
+				});
+			}
 
 		}
-			
-		if (eventcode == 4) 
+
+		if(eventcode ==4)
 		{
-			
 			object[] data = (object[])content;
-		
-			player[1].GetComponent<Image>().sprite = avatar [(int)data[0]];
+			int ava =0;
 
-			PhotonPlayer sender = PhotonPlayer.Find (senderid);
-			playername2.text = sender.NickName;
+			if ((int)data [0] == avatar.Length) 
+			{
+				ava = avatar.Length - 1;
+			}
+			else
+			{
+				ava = (int)data [0] + 1;
+			}
+
+			player [0].GetComponent<Image> ().sprite = avatar [(int)data[0]];
+			playername1.text = PhotonNetwork.masterClient.NickName;
+
+			player [1].GetComponent<Image> ().sprite = avatar [ava];
+			playername2.text = (string)data[1];
+
 		}
+			
 	}
 		
 	IEnumerator HideNotify(float time, Text notify)

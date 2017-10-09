@@ -14,6 +14,7 @@ public class ChatPhotonTest : MonoBehaviour
 	{
 		content = new string[1];
 		Chatbox.text = string.Empty;
+
 		PhotonNetwork.OnEventCall += this.OnEvent;
 
 	}
