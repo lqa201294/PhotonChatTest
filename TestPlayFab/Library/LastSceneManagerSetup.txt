@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/Photon&PlayFab.unity
+- path: Assets/Scene/Lobby.unity
   isLoaded: 1
   isActive: 1
