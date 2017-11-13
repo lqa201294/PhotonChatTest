@@ -151,7 +151,7 @@ public class PhotonEditor : EditorWindow
     {
         EditorApplication.projectWindowChanged += EditorUpdate;
         EditorApplication.hierarchyWindowChanged += EditorUpdate;
-        EditorApplication.playmodeStateChanged += PlaymodeStateChanged;
+		EditorApplication.playmodeStateChanged += PlaymodeStateChanged;
         EditorApplication.update += OnUpdate;
 
         // detect optional packages

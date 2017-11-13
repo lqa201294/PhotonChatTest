@@ -20,7 +20,11 @@ public class PlayerJoinedGame : MonoBehaviour {
 	public GameObject StartButton;
 	public GameObject player1Status;
 	public GameObject player2Status;
-	public GameObject Playerprefab;
+
+	public GameObject yourplayer;
+	public GameObject otherPlayerprefab;
+
+	public GameObject camfollow;
 
 	public static List<string> playername = new List<string> ();
 
@@ -47,10 +51,18 @@ public class PlayerJoinedGame : MonoBehaviour {
 
 	private void StartGame()
 	{
-		gameObject.SetActive (false);
 		StartButton.SetActive (false);
-		player1Status.SetActive (true);
-		player2Status.SetActive (true);
+//		player1Status.SetActive (true);
+//		player2Status.SetActive (true);
+
+		yourplayer.SetActive (true);
+		camfollow.SetActive (true);
+
+		Vector3 distance = new Vector3 (0,0, 20f);
+
+		Instantiate (otherPlayerprefab, yourplayer.transform.position + distance, Quaternion.identity);
+
+		gameObject.SetActive (false);
 	}
 
 
@@ -250,4 +262,8 @@ public class PlayerJoinedGame : MonoBehaviour {
 		notify.text = string.Empty;
 	}
 
+	private void OnDisable()
+	{
+		PhotonNetwork.OnEventCall -= this.GetEvent;
+	}
 }

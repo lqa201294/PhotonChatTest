@@ -11,13 +11,14 @@ public class Camerafollow : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		
 		offset = transform.position - target.position;
-		transform.position = new Vector3 (target.position.x, 5f, target.position.z - distanceCam );
+		//transform.position = new Vector3 (target.position.x, target.position.y +2.5f, target.position.z - distanceCam );
 	}
 	
 	// Update is called once per frame
 	void LateUpdate () {
-
+		
 		transform.position = Vector3.Lerp (transform.position, target.position + offset, smoothtime * Time.deltaTime );
 	}
 }
